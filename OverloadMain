@@ -1,0 +1,10 @@
+public class OverloadMain {
+	
+	public static void main(String[] args) {
+		OverloadTest ot = new OverloadTest();
+		ot.test();
+		ot.test(1, 2);
+		ot.test("omg");
+	}
+
+}
