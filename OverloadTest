@@ -1,0 +1,14 @@
+public class OverloadTest {
+	
+	void test () {
+		System.out.println("Пусто");
+	}
+	
+	void test (int a, int b) {
+		System.out.println(a + " " + b);
+	}
+	
+	void test (String s) {
+		System.out.println(s);
+	}
+}
